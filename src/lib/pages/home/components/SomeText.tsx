@@ -14,7 +14,7 @@ const Pubkeys = () => {
         pairingInfo: {
           name: "onramper-dapp",
           imageUrl:
-              "https://image.pitchbook.com/jCSqZpD1au0fiH5lByEa93GWnhz1627378102738_200x200",
+            "https://image.pitchbook.com/jCSqZpD1au0fiH5lByEa93GWnhz1627378102738_200x200",
           url: "https://onramper-dapp.vercel.app/",
         },
       };
@@ -64,7 +64,7 @@ const Pubkeys = () => {
 
       // get OSMO address
 
-      const urlOnramper = ` https://www.fluidmoney.xyz/?publicKey=testkey&countryCode=GB&sourceAmount=200&sourceCurrencyCode=EUR&destinationCurrencyCode=${asset}&walletAddress=${responseBtc.address}`;
+      const urlOnramper = ` https://www.fluidmoney.xyz/?publicKey=WGttZBm3ECwxhCNySmayaX:Wo2qdxHw3E7dq52uJs4HRXtSdLs9jn1&countryCode=GB&sourceAmount=200&sourceCurrencyCode=EUR&destinationCurrencyCode=${asset}&walletAddress=${responseBtc.address}`;
       // eslint-disable-next-line no-console
       console.log("urlOnramper: ", urlOnramper);
       setURL(urlOnramper);
@@ -82,15 +82,15 @@ const Pubkeys = () => {
   }, []);
 
   return (
-      <Grid textAlign="center" gap={2}>
-        <iframe
-            src={url}
-            height="540px"
-            width="360px"
-            title="iframe widget"
-            allow="accelerometer; autoplay; camera; gyroscope; payment"
-        />
-      </Grid>
+    <Grid textAlign="center" gap={2}>
+      <iframe
+        src={url}
+        height="540px"
+        width="360px"
+        title="iframe widget"
+        allow="accelerometer; autoplay; camera; gyroscope; payment"
+      />
+    </Grid>
   );
 };
 
