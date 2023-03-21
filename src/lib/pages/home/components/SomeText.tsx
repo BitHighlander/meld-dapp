@@ -13,8 +13,7 @@ const Pubkeys = () => {
         apiKey,
         pairingInfo: {
           name: "meld-onramp",
-          imageUrl:
-            "https://fluidmoney.xyz/account/meld/logo-main.svg",
+          imageUrl: "https://fluidmoney.xyz/account/meld/logo-main.svg",
           url: "https://onramper-dapp.vercel.app/",
         },
       };
